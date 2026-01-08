@@ -93,7 +93,7 @@ X/Twitter 下载助手是一款专为X（原Twitter）用户设计的浏览器�
 1. 打开 `chrome://extensions` 或 `edge://extensions`
 2. 启用「开发者模式」
 3. 点击「加载已解压的扩展程序」
-4. 选择 `Down-crx` 文件夹
+4. 选择 `X-TwitterDown` 文件夹
 
 ### 第二步：开始使用
 1. 访问 x.com 或 twitter.com
