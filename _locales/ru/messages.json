@@ -1,0 +1,50 @@
+{
+  "ext_name": {
+    "message": "Помощник загрузки X/Twitter",
+    "description": "Extension name"
+  },
+  "ext_description": {
+    "message": "Легко загружайте изображения, видео и GIF с X/Twitter с предпросмотром при наведении",
+    "description": "Extension description"
+  },
+  "download": {
+    "message": "Скачать",
+    "description": "Download button text"
+  },
+  "downloading": {
+    "message": "Загрузка...",
+    "description": "Downloading status"
+  },
+  "download_success": {
+    "message": "Загрузка завершена!",
+    "description": "Download success message"
+  },
+  "download_failed": {
+    "message": "Ошибка загрузки",
+    "description": "Download failed message"
+  },
+  "close": {
+    "message": "Закрыть",
+    "description": "Close button text"
+  },
+  "image": {
+    "message": "Изображение",
+    "description": "Image type"
+  },
+  "video": {
+    "message": "Видео",
+    "description": "Video type"
+  },
+  "gif": {
+    "message": "GIF",
+    "description": "GIF type"
+  },
+  "hover_preview": {
+    "message": "Предпросмотр при наведении",
+    "description": "Hover preview tip"
+  },
+  "open_settings": {
+    "message": "Открыть настройки",
+    "description": "Open settings"
+  }
+}
