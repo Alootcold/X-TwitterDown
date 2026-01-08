@@ -1,0 +1,50 @@
+{
+  "ext_name": {
+    "message": "مساعد تنزيل X/Twitter",
+    "description": "Extension name"
+  },
+  "ext_description": {
+    "message": "قم بتنزيل الصور والفيديوهات وGIF بسهولة من X/Twitter مع المعاينة عند التحويم",
+    "description": "Extension description"
+  },
+  "download": {
+    "message": "تنزيل",
+    "description": "Download button text"
+  },
+  "downloading": {
+    "message": "جاري التنزيل...",
+    "description": "Downloading status"
+  },
+  "download_success": {
+    "message": "تم التنزيل بنجاح!",
+    "description": "Download success message"
+  },
+  "download_failed": {
+    "message": "فشل التنزيل",
+    "description": "Download failed message"
+  },
+  "close": {
+    "message": "إغلاق",
+    "description": "Close button text"
+  },
+  "image": {
+    "message": "صورة",
+    "description": "Image type"
+  },
+  "video": {
+    "message": "فيديو",
+    "description": "Video type"
+  },
+  "gif": {
+    "message": "GIF",
+    "description": "GIF type"
+  },
+  "hover_preview": {
+    "message": "معاينة عند التحويم",
+    "description": "Hover preview tip"
+  },
+  "open_settings": {
+    "message": "فتح الإعدادات",
+    "description": "Open settings"
+  }
+}
