@@ -1,0 +1,50 @@
+{
+  "ext_name": {
+    "message": "Assistente download X/Twitter",
+    "description": "Extension name"
+  },
+  "ext_description": {
+    "message": "Scarica facilmente immagini, video e GIF da X/Twitter con anteprima al passaggio del mouse",
+    "description": "Extension description"
+  },
+  "download": {
+    "message": "Scarica",
+    "description": "Download button text"
+  },
+  "downloading": {
+    "message": "Download in corso...",
+    "description": "Downloading status"
+  },
+  "download_success": {
+    "message": "Download completato!",
+    "description": "Download success message"
+  },
+  "download_failed": {
+    "message": "Download fallito",
+    "description": "Download failed message"
+  },
+  "close": {
+    "message": "Chiudi",
+    "description": "Close button text"
+  },
+  "image": {
+    "message": "Immagine",
+    "description": "Image type"
+  },
+  "video": {
+    "message": "Video",
+    "description": "Video type"
+  },
+  "gif": {
+    "message": "GIF",
+    "description": "GIF type"
+  },
+  "hover_preview": {
+    "message": "Anteprima al passaggio mouse",
+    "description": "Hover preview tip"
+  },
+  "open_settings": {
+    "message": "Apri impostazioni",
+    "description": "Open settings"
+  }
+}
