@@ -1,0 +1,189 @@
+#xtwitter-preview-container.xtwitter-preview-container {
+  position: fixed;
+  z-index: 999999;
+  background: rgba(255, 255, 255, 0.98);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  max-width: 560px;
+  min-height: 420px;
+  display: none;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+#xtwitter-preview-container.xtwitter-preview-container * {
+  box-sizing: border-box;
+}
+
+#xtwitter-preview-container .xtwitter-preview-content {
+  width: 100%;
+  height: 360px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#xtwitter-preview-container .xtwitter-preview-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#xtwitter-preview-container .xtwitter-preview-video {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#xtwitter-preview-container .xtwitter-preview-loading {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(26, 26, 46, 0.95);
+}
+
+#xtwitter-preview-container .xtwitter-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-top-color: #1da1f2;
+  border-radius: 50%;
+  animation: xtwitter-spin 0.8s linear infinite;
+}
+
+@keyframes xtwitter-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#xtwitter-preview-container .xtwitter-preview-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: #ffffff;
+  border-top: 1px solid #e8e8e8;
+}
+
+#xtwitter-preview-container .xtwitter-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+#xtwitter-preview-container .xtwitter-btn-download {
+  background: linear-gradient(135deg, #1da1f2 0%, #0d8bd9 100%);
+  color: white;
+  flex: 1;
+  margin-right: 8px;
+}
+
+#xtwitter-preview-container .xtwitter-btn-download:hover {
+  background: linear-gradient(135deg, #1da1f2 0%, #0c7fc2 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(29, 161, 242, 0.4);
+}
+
+#xtwitter-preview-container .xtwitter-btn-download:active {
+  transform: translateY(0);
+}
+
+#xtwitter-preview-container .xtwitter-btn-close {
+  background: #f5f5f5;
+  color: #666;
+  padding: 8px 12px;
+}
+
+#xttwitter-preview-container .xtwitter-btn-close:hover {
+  background: #e8e8e8;
+  color: #333;
+}
+
+#xtwitter-preview-container .xtwitter-btn-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+#xtwitter-preview-container .xtwitter-preview-info {
+  padding: 8px 12px;
+  background: #f8f9fa;
+  color: #666;
+  font-size: 11px;
+  text-align: center;
+  border-top: 1px solid #e8e8e8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (prefers-color-scheme: dark) {
+  #xtwitter-preview-container.xtwitter-preview-container {
+    background: #1e1e1e;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.1);
+  }
+
+  #xtwitter-preview-container .xtwitter-preview-toolbar {
+    background: #2d2d2d;
+    border-color: #404040;
+  }
+
+  #xtwitter-preview-container .xtwitter-btn-download {
+    background: linear-gradient(135deg, #1da1f2 0%, #0d8bd9 100%);
+  }
+
+  #xtwitter-preview-container .xtwitter-btn-close {
+    background: #404040;
+    color: #ccc;
+  }
+
+  #xtwitter-preview-container .xtwitter-btn-close:hover {
+    background: #505050;
+    color: #fff;
+  }
+
+  #xtwitter-preview-container .xtwitter-preview-info {
+    background: #252525;
+    color: #999;
+    border-color: #404040;
+  }
+}
+
+#xtwitter-preview-container .xtwitter-btn-download:hover {
+  background: linear-gradient(135deg, #1da1f2 0%, #0c7fc2 100%);
+  box-shadow: 0 4px 12px rgba(29, 161, 242, 0.4);
+}
+
+#xtwitter-preview-container .xtwitter-btn-download:active {
+  transform: scale(0.98);
+}
+
+#xtwitter-preview-container .xtwitter-btn-close:hover {
+  background: #e8e8e8;
+  color: #333;
+}
+
+#xtwitter-preview-container .xtwitter-preview-image:hover,
+#xtwitter-preview-container .xtwitter-preview-video:hover {
+  cursor: zoom-in;
+}
