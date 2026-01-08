@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X/Twitter 下载助手</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header class="popup-header">
+      <div class="logo">
+        <img src="icons/logo48.png" alt="Logo" width="32" height="32">
+      </div>
+      <h1 class="title">X/Twitter 下载助手</h1>
+    </header>
+
+    <main class="popup-content">
+      <div class="feature-list">
+        <div class="feature-item">
+          <span class="feature-icon">🖼️</span>
+          <span class="feature-text">悬停预览原图</span>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon">⬇️</span>
+          <span class="feature-text">一键下载原图/视频</span>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon">🌐</span>
+          <span class="feature-text">12种语言支持</span>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon">🎬</span>
+          <span class="feature-text">支持GIF动图</span>
+        </div>
+      </div>
+
+      <div class="stats-section">
+        <div class="stat-item">
+          <span class="stat-label">已下载</span>
+          <span class="stat-value" id="download-count">0</span>
+        </div>
+      </div>
+
+      <div class="quick-guide">
+        <h3>使用说明</h3>
+        <ol>
+          <li>访问 X 或 Twitter 网站</li>
+          <li>将鼠标悬停在图片或视频上</li>
+          <li>点击弹出窗口中的下载按钮</li>
+        </ol>
+      </div>
+    </main>
+
+    <footer class="popup-footer">
+      <button class="btn btn-primary" id="open-settings">
+        打开设置
+      </button>
+      <span class="version">v1.0.0</span>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
