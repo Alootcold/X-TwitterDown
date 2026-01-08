@@ -1,0 +1,50 @@
+{
+  "ext_name": {
+    "message": "X/Twitter 다운로드 도우미",
+    "description": "Extension name"
+  },
+  "ext_description": {
+    "message": "X/Twitter의 이미지, 비디오, GIF를 쉽게 다운로드하고 마우스 오버로 미리보기",
+    "description": "Extension description"
+  },
+  "download": {
+    "message": "다운로드",
+    "description": "Download button text"
+  },
+  "downloading": {
+    "message": "다운로드 중...",
+    "description": "Downloading status"
+  },
+  "download_success": {
+    "message": "다운로드 완료!",
+    "description": "Download success message"
+  },
+  "download_failed": {
+    "message": "다운로드 실패",
+    "description": "Download failed message"
+  },
+  "close": {
+    "message": "닫기",
+    "description": "Close button text"
+  },
+  "image": {
+    "message": "이미지",
+    "description": "Image type"
+  },
+  "video": {
+    "message": "비디오",
+    "description": "Video type"
+  },
+  "gif": {
+    "message": "GIF",
+    "description": "GIF type"
+  },
+  "hover_preview": {
+    "message": "마우스 오버 미리보기",
+    "description": "Hover preview tip"
+  },
+  "open_settings": {
+    "message": "설정 열기",
+    "description": "Open settings"
+  }
+}
