@@ -1,0 +1,50 @@
+{
+  "ext_name": {
+    "message": "X/Twitter Download Assistant",
+    "description": "Extension name"
+  },
+  "ext_description": {
+    "message": "Easily download images, videos and GIFs from X/Twitter with hover preview",
+    "description": "Extension description"
+  },
+  "download": {
+    "message": "Download",
+    "description": "Download button text"
+  },
+  "downloading": {
+    "message": "Downloading...",
+    "description": "Downloading status"
+  },
+  "download_success": {
+    "message": "Download complete!",
+    "description": "Download success message"
+  },
+  "download_failed": {
+    "message": "Download failed",
+    "description": "Download failed message"
+  },
+  "close": {
+    "message": "Close",
+    "description": "Close button text"
+  },
+  "image": {
+    "message": "Image",
+    "description": "Image type"
+  },
+  "video": {
+    "message": "Video",
+    "description": "Video type"
+  },
+  "gif": {
+    "message": "GIF",
+    "description": "GIF type"
+  },
+  "hover_preview": {
+    "message": "Hover to preview",
+    "description": "Hover preview tip"
+  },
+  "open_settings": {
+    "message": "Open Settings",
+    "description": "Open settings"
+  }
+}
