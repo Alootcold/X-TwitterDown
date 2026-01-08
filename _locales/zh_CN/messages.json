@@ -1,0 +1,50 @@
+{
+  "ext_name": {
+    "message": "X/Twitter 下载助手",
+    "description": "Extension name"
+  },
+  "ext_description": {
+    "message": "轻松下载X/Twitter上的图片、视频和GIF，支持悬停预览原图",
+    "description": "Extension description"
+  },
+  "download": {
+    "message": "下载",
+    "description": "Download button text"
+  },
+  "downloading": {
+    "message": "下载中...",
+    "description": "Downloading status"
+  },
+  "download_success": {
+    "message": "下载完成！",
+    "description": "Download success message"
+  },
+  "download_failed": {
+    "message": "下载失败",
+    "description": "Download failed message"
+  },
+  "close": {
+    "message": "关闭",
+    "description": "Close button text"
+  },
+  "image": {
+    "message": "图片",
+    "description": "Image type"
+  },
+  "video": {
+    "message": "视频",
+    "description": "Video type"
+  },
+  "gif": {
+    "message": "GIF动图",
+    "description": "GIF type"
+  },
+  "hover_preview": {
+    "message": "悬停预览",
+    "description": "Hover preview tip"
+  },
+  "open_settings": {
+    "message": "打开设置",
+    "description": "Open settings"
+  }
+}
