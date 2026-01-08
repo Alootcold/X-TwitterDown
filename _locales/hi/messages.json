@@ -1,0 +1,50 @@
+{
+  "ext_name": {
+    "message": "X/Twitter डाउनलोड सहायक",
+    "description": "Extension name"
+  },
+  "ext_description": {
+    "message": "होवर पूर्वावलोकन के साथ X/Twitter से आसानी से चित्र, वीडियो और GIF डाउनलोड करें",
+    "description": "Extension description"
+  },
+  "download": {
+    "message": "डाउनलोड",
+    "description": "Download button text"
+  },
+  "downloading": {
+    "message": "डाउनलोड हो रहा है...",
+    "description": "Downloading status"
+  },
+  "download_success": {
+    "message": "डाउनलोड पूर्ण!",
+    "description": "Download success message"
+  },
+  "download_failed": {
+    "message": "डाउनलोड विफल",
+    "description": "Download failed message"
+  },
+  "close": {
+    "message": "बंद करें",
+    "description": "Close button text"
+  },
+  "image": {
+    "message": "चित्र",
+    "description": "Image type"
+  },
+  "video": {
+    "message": "वीडियो",
+    "description": "Video type"
+  },
+  "gif": {
+    "message": "GIF",
+    "description": "GIF type"
+  },
+  "hover_preview": {
+    "message": "होवर पूर्वावलोकन",
+    "description": "Hover preview tip"
+  },
+  "open_settings": {
+    "message": "सेटिंग्स खोलें",
+    "description": "Open settings"
+  }
+}
